@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/moni-icon_color.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cfac98cb1c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <title>La Pandilla de Moni</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <script src="js/script.js"> </script> -->
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="index.html"><img class="logo-moni" src="./img/moni-logo.png" alt="Logo La pandilla de Moni" /></a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienessomos.html">Quienes somos</a></li>
+            <li><a href="adopta.html">Adoptá</a></li>
+            <li><a href="comocolaborar.html">Como colaborar</a></li>
+            <li><a href="contactanos.html">Contactanos</a></li>
+        </ul>
+    </nav>
+
+    <section id="container-slider">
+        <a href="javascript: fntExecuteSlide('prev');" class="flechaPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="flechaNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+            <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+            <li><a itlist="itList_1" href="#"></a></li>
+            <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+            <li style="background-image: url('img/01-banner.png'); z-index:0; opacity: 1;">
+            </li>
+            <li style="background-image: url('img/02-banner.png');">
+            </li>
+            <li style="background-image: url('img/03-banner.jpg');">
+                <!-- <div><p class="texto1-banner">Vos podés ser la persona favorita de alguno de ellos.</p>
+            <p class="texto2-banner">Déjate adoptar.</p>
+            </div> -->
+            </li>
+        </ul>
+    </section>
+
+    <main>
+
+        <section class="section-donaciones-pandilla">
+            <div class="donaciones-pandilla-container">
+                <div class="donaciones-pandilla-card">
+                    <a class="donaciones-enlaces" href="comocolaborar.html">
+                        <img class="img-donaciones-pandilla" src="./img/coca_adoptada.jpg"
+                            alt="Coca Perrita adoptada" />
+                        <h2>DONACIONES</h2>
+                        <p>Podes ayudar mensualmente para que Mónica Pavesio
+                            alimente a 120 perros y gatos de Lanús.
+                            Sumate a la pandilla con una pequeña colaboración 🐶🐱 (El dinero recaudado es utilizado
+                            100% para cubrir el alimento,
+                            consultas veterinarias, pensionados y pipetas).</p>
+                    </a>
+                </div>
+                <div class="donaciones-pandilla-card">
+                    <a class="donaciones-enlaces" href="adopta.html">
+                        <img class="img-donaciones-pandilla" src="./img/la_pandilla.jpg"
+                            alt="La pandilla en adopción" />
+                        <h2>LA PANDILLA</h2>
+                        <p>Conoce a los mas de 40 animales en adopcion, Si queres que forme parte de tu familia o queres
+                            saber más de él escribimos, tambien
+                            podes ayudarnos a difundir para que todos ellos puedan encontrar una familia que
+                            los cuide y quiera mucho 🏡🧡</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-carmen-home">
+            <div class="carmen-texto">
+                <h2>El color de Carmen</h2>
+                <p>Carmen era una perrita que vivía cerca del puente Pompeya en Valentín Alsina. Durante el tiempo que
+                    vivió ahí sobrevivió gracias a la enorme labor que hace Monica Pavesio. Carmencita hoy vive
+                    tranquila y feliz junto a su familia.</p>
+                <a href="adopta.html#carmenHistoria">Conocé su historia</a>
+            </div>
+        </section>
+
+        <section class="section-juntos">
+            <div class="juntos-container">
+                <div class="juntos-card">
+                    <p>Juntos podemos alimentar a toda la pandilla que ayuda Moni ♥. Para hacerlo lo que tenés que hacer
+                        es elegir el importe con el que podés colaborar. Es importante saber que el mismo se debitará
+                        automáticamente todos los meses y podrás darlo de baja en el momento que quieras.</p>
+                </div>
+
+                <div class="juntos-card fede-card">
+                    <img class="img-juntos-fede" src="img/fede-lentes.gif" alt="Fede con gafas"/>    
+                </div>
+                
+                <div class="juntos-card">
+                    <h4>“La cooperación es la convicción plena de que
+                        nadie puede llegar a la meta si no llegamos todos”</h4>
+                    <br>
+                    <h4>Virginia Burden</h4>
+                </div>
+            </div>
+            <h3><a href="quienessomos.html">🐶 Sumate a la pandilla 🐱</a></h3>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <a href="https://www.instagram.com/lapandillademoni/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/monica.pavesio.1" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/pavesiomonica/" target="_blank"><i class="fa-solid fa-paw"></i></a>
+            <a href="https://lapandillademoni.com/" target="_blank"><i class="fa-solid fa-heart"></i></a>
+            <a href="mailto:lapandillademoni@gmail.com" target="_blank"><i class="fa-solid fa-at"></i></a>
+            <br>
+            <br>
+            <p>© Copyright 2022 La Pandilla de Moni. Todos los derechos reservados. </br>
+                Desarrollado por Ariana Mansilla</p>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="botonArriba" title="Arriba"><i class="fa-solid fa-arrow-up-long"></i></button>
+</body>
+
+</html>

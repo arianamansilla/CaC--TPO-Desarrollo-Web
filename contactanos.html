@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/moni-icon_color.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/cfac98cb1c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
+  <title>La Pandilla de Moni</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <!-- <script src="js/script.js"> </script> -->
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <a href="index.html"><img class="logo-moni" src="./img/moni-logo.png" alt="Logo La pandilla de Moni" /></a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="quienessomos.html">Quienes somos</a></li>
+      <li><a href="adopta.html">Adoptá</a></li>
+      <li><a href="comocolaborar.html">Como colaborar</a></li>
+      <li><a href="contactanos.html">Contactanos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="contacto-titulo">
+      <h2>Contactanos</h2>
+      <p>Para contactarte con nosotros completa el siguiente formulario. ¡Muchas gracias!</p>
+    </div>
+
+    <section class="formulario">
+      <div class="formulario-container">
+        <form action="" class="form" name="fvalida">
+          <h1 class="title">🐶🐱</h1>
+
+          <div class="inputContainer">
+            <input type="text" name="nombre" class="input" size="30" maxlength="80" placeholder="a">
+            <label for="" class="label">Nombre y apellido</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="text" class="input" id="ciudad" placeholder="a" >
+            <label for="" class="label">Ciudad</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="text" name="email" class="input" id="email" placeholder="a">
+            <label for="" class="label">E-mail</label>
+          </div>
+
+          <div class="inputContainer">
+            <input type="text" class="input" id="telefono" placeholder="a" >
+            <label for="" class="label">Teléfono</label>
+          </div>
+
+          <div class="inputContainerMotivo">
+            <label for="motivo">Motivo</label>
+            <select name="motivo" class="motivo" size="1">
+              <option value="1">Donaciones</option>
+              <option value="2">Voluntarios</option>
+              <option value="3">Adopciones</option>
+              <option value="4">Otro</option>
+            </select>
+          </div>
+        
+          <div class="inputContainerMensaje">
+            <input type="text" name="mensaje" class="input" id="mensaje" placeholder="a">
+            <label for="" class="label">Mensaje</label>
+          </div>
+
+          <input type="button" class="botonEnviar" value="ENVIAR" onclick="valida_envia()">
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a href="https://www.instagram.com/lapandillademoni/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/monica.pavesio.1" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/pavesiomonica/" target="_blank"><i class="fa-solid fa-paw"></i></a>
+      <a href="https://lapandillademoni.com/" target="_blank"><i class="fa-solid fa-heart"></i></a>
+      <a href="mailto:lapandillademoni@gmail.com" target="_blank"><i class="fa-solid fa-at"></i></a>
+      <br>
+      <br>
+      <p>© Copyright 2022 La Pandilla de Moni. Todos los derechos reservados. </br>
+        Desarrollado por Ariana Mansilla</p>
+    </div>
+  </footer>
+  <button onclick="topFunction()" id="botonArriba" title="Arriba"><i class="fa-solid fa-arrow-up-long"></i></button>
+</body>
+
+</html>
