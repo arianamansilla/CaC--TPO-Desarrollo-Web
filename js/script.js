@@ -15,12 +15,6 @@ function valida_envia() {
         return 0;
     }
 
-    if (document.fvalida.email.value.length == 0) {
-        alert("No te olvides de ingresar tu mail")
-        document.fvalida.email.focus()
-        return 0;
-    }
-
     //valida motivo
     if (document.fvalida.motivo.selectedIndex == 0) {
         alert("Por favor selecciona el motivo de tu mensaje.")
