@@ -675,6 +675,7 @@
  }
  
  .cover {
+   margin-top: 10px; 
    position: absolute;
    top: -40px;
    left: 0;
@@ -1271,7 +1272,11 @@
         margin: 30px;
         width: auto;
         height: 200px; 
-}
+    }
+
+    .adopta-minigaleria-titulo {
+    font-size: 12px;
+    }
 
     /* Contacto */
     .form {
@@ -1334,13 +1339,6 @@
         letter-spacing: 0px; 
     }
 
-    .footer {
-        font-size: 14px;
-        padding: 2em;
-        height: 6em;
-        font-weight: 300;     
-    }
-
     /* Quienes somos */
     .section-quienes {
         background-color: white;
@@ -1354,7 +1352,7 @@
     }
 
     .blockquote-container {
-        height: 100vh;
+        height: 110vh;
         padding: 15px;
     }
       
@@ -1364,6 +1362,10 @@
 
     .quienes-minigaleria-card img {
         width: 250px;
+    }
+
+    .quienes-minigaleria-titulo {
+        font-size: 14px;
     }
 
     /* Adopta */
@@ -1397,10 +1399,10 @@
     }
 
     .cover {
-        height: 130px;
+        height: 100px;
         width: 675px;
         background: #fff;
-      }
+    }
 
     .carmen-titulo h2{
         padding-top: 20px ;
@@ -1421,7 +1423,20 @@
         padding-right: 3em;
         padding-left: 3em;
         font-size: 14px; 
-    }   
+    }  
+    
+    .section-adopta {
+        padding: 10px;
+    }
+
+    .adopta-minigaleria-titulo {
+        font-size: 14px;
+    }
+
+ .adopta-minigaleria-card img {
+        width: 250px;
+    }
+
 
     /* Como colaborar */
     .section-colaborar h1{
@@ -1484,10 +1499,15 @@
     .botonEnviar {
         width: 110%;
     }
-      
+
+    .footer {
+        font-size: 14px;
+        padding: 2em;
+        height: 6em;
+        font-weight: 300;     
   }
 
-
+}
 
 /* GRILLA DE IMAGENES ADOPTÁ - RESPONSIVE */
   @media(min-width:520px){
